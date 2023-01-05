@@ -1,0 +1,81 @@
+[  { 
+    "question": "What does CSS stand for?",
+    "choices": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets",      "Creative Style Sheets"    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which of the following is NOT a valid value for the 'display' property in CSS?",
+    "choices": [
+      "block",
+      "inline",
+      "inline-block",
+      "javascript"
+    ],
+    "answer": "javascript"
+  },
+  {
+    "question": "Which of the following is the correct syntax for specifying multiple CSS selectors?",
+    "choices": [
+      "element1, element2 { property: value; }",
+      "element1 element2 { property: value; }",
+      "element1 > element2 { property: value; }",
+      "element1 + element2 { property: value; }"
+    ],
+    "answer": "element1, element2 { property: value; }"
+  },
+  {
+    "question": "Which of the following is the correct syntax for specifying a background color in CSS?",
+    "choices": [
+      "background-color: value;",
+      "background: color value;",
+      "bg-color: value;",
+      "bgcolor: value;"
+    ],
+    "answer": "background-color: value;"
+  }
+, {
+      "question": "Which of the following is the correct syntax for specifying the font size of an element in CSS?", "choices": [
+        "font-size: value;",
+        "font: size value;",
+        "text-size: value;",
+        "size: value;"
+      ],
+    "answer": "font-size: value;"
+  },
+  {
+    "question": "Which of the following is NOT a valid value for the 'position' property in CSS?",
+    "choices": [
+      "static",
+      "relative",
+      "absolute",
+      "javascript"
+    ],
+    "answer": "javascript"
+  },
+  {
+    "question": "Which of the following is the correct syntax for specifying a border in CSS?",
+    "choices": [
+      "border: width style color;",
+      "border-width: value; border-style: value; border-color: value;",
+      "borders: width style color;",
+      "border-all: width style color;"
+    ],
+    "answer": "border: width style color;"
+  },
+  {
+    "question": "Which of the following is the correct syntax for specifying the left margin of an element in CSS?",
+    "choices": [
+      "margin-left: value;",
+      "margin: left value;",
+      "padding-left: value;",
+      "indent: value;"
+    ],
+    "answer": "margin-left: value;"
+  }
+]
+
+
+

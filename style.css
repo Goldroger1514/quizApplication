@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  --padding:10px;
+  --background-color:#9e9e9e;
+  --checked-color:#0077ffb9;
+}
+body{
+  font-family: sans-serif;
+  background-color: #000016;
+}
+.quiz-area {
+  background: #eee;
+  padding: var(--padding);
+  width: 600px;
+  margin: auto;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding);
+  background: var(--background-color);
+}
+select#categories {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span.number{
+  font-weight: bold;
+  font-size: 20px;
+}
+h3{
+  margin: 0;
+}
+.container{
+  margin: var(--padding) 0;
+  background: var(--background-color);
+}
+.question-area{
+  margin-bottom:var(--padding) ;
+  padding: var(--padding);
+}
+.answer{
+  padding: var(--padding);
+  padding: var(--padding);
+}
+.answer:not(:last-of-type){
+  margin-bottom: var(--padding);
+  border-bottom: 1px solid #777;
+}
+label{
+  position: relative;
+  bottom: 1px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+input{
+  cursor: pointer;
+}
+input:checked + label{
+  color:var(--checked-color);
+}
+.score{
+  display: block;
+  background: var(--background-color);
+  padding: calc( var(--padding) + 5px);
+  margin-top: var(--padding);
+  text-align: center;
+}
+button{
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: var(--padding);
+  text-align: center;
+  background: var(--background-color);
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bullets{
+  margin-top: var(--padding);
+  background: var(--background-color);
+  padding: calc( var(--padding) + 5px );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bullets .spans{
+  display: flex;
+}
+.bullets .spans span{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  margin-right: 5px;
+}
+.hidden{
+  display: none;
+}
+.shown{
+  display: block;
+}
+.current-question{
+  background: var(--checked-color) !important;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz application</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="quiz-area">
+    <div class="info">
+      <div class="category">
+        <label for="">Categories: </label>
+        <select name="categories" id="categories">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+      </div>
+      <div class="total-questions">
+        <span class="number"></span> questions
+      </div>
+    </div>
+    <div class="container">
+    </div>
+    <div class="submit">
+      <button class="submit" id="submit">Submit answer</button>
+    </div>
+    <div class="bullets">
+      <div class="spans">
+      </div>
+      <div class="time">
+        time left for this question: <span class="minutes"></span>:<span class="seconds"></span>
+      </div>
+    </div>
+      <div class="score hidden">
+        You got <span class="got"></span> out of <span class="number"></span>
+      </div>
+  </div>
+</body>
+
+</html>

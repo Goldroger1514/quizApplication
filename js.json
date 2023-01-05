@@ -1,0 +1,80 @@
+[  {
+    "question": "What does JavaScript stand for?",
+    "choices": [
+      "JavaScript Object Notation",
+      "JavaScript Oriented Notation",
+      "JavaScripting Object Notation",
+      "JavaScript Object Oriented Notation"
+    ],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "question": "Which of the following is NOT a valid value for the 'type' property of a JavaScript function?",
+    "choices": [
+      "function",
+      "method",
+      "constructor",
+      "class"
+    ],
+    "answer": "class"
+  },
+  {
+    "question": "Which of the following is the correct syntax for creating an object in JavaScript?",
+    "choices": [
+      "new Object();",
+      "object Object();",
+      "object();",
+      "{}"
+    ],
+    "answer": "{}"
+  },
+  {
+    "question": "Which of the following is the correct syntax for creating an array in JavaScript?",
+    "choices": [
+      "new Array();",
+      "array Array();",
+      "array();",
+      "[]"
+    ],
+    "answer": "[]"
+  }
+,{ "question": "Which of the following is NOT a valid operator in JavaScript?",
+"choices": [
+  "+",
+  "-",
+  "*","/",
+  "^",
+  "javascript"],
+    "answer": "^"
+  },
+  {
+    "question": "Which of the following is the correct syntax for a 'for' loop in JavaScript?",
+    "choices": [
+      "for (var i = 0; i < 10; i++) { }",
+      "for (i = 0; i < 10; i++) { }",
+      "for (var i = 0; i <= 10; i++) { }",
+      "for (i = 0; i <= 10; i++) { }"
+    ],
+    "answer": "for (var i = 0; i < 10; i++) { }"
+  },
+  {
+    "question": "Which of the following is the correct syntax for a 'while' loop in JavaScript?",
+    "choices": [
+      "while (i < 10) { i++; }",
+      "while (i <= 10) { i++; }",
+      "while (i < 10) { i = i + 1; }",
+      "while (i <= 10) { i = i + 1; }"
+    ],
+    "answer": "while (i < 10) { i++; }"
+  },
+  {
+    "question": "Which of the following is the correct syntax for a 'do-while' loop in JavaScript?",
+    "choices": [
+      "do { i++; } while (i < 10)",
+      "do { i = i + 1; } while (i < 10)",
+      "do { i++; } while (i <= 10)",
+      "do { i = i + 1; } while (i <= 10)"
+    ],
+    "answer": "do { i++; } while (i < 10)"
+  }
+]

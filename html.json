@@ -1,0 +1,124 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "choices": [
+        "Hypertext Markup Language",
+        "Hypertext and Links Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Hypertext Markdown Language"
+      ],
+      "answer": "Hypertext and Links Markup Language"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTML element?",
+      "choices": [
+        "div",
+        "table",
+        "footer",
+        "javascript"
+      ],
+      "answer": "javascript"
+    },
+    {
+      "question": "Which of the following attributes can be used to specify the URL of a linked document in an anchor element?",
+      "choices": [
+        "link",
+        "src",
+        "href",
+        "rel"
+      ],
+      "answer": "rel"
+    },
+    {
+      "question": "In HTML, which element is used to specify a footer for a document or section?",
+      "choices": [
+        "foot",
+        "section",
+        "bottom",
+        "footer"
+      ],
+      "answer":"footer"
+    },
+    {
+      "question": "Which of the following is NOT a valid heading element in HTML?",
+      "choices": [
+        "h1",
+        "h2",
+        "h6",
+        "h7"
+      ],
+      "answer":"h7"
+    },
+    {
+      "question": "Which of the following is used to create a dropdown list in an HTML form?",
+      "choices": [
+        "list",
+        "select",
+        "input",
+        "option"
+      ],
+      "answer": "input"
+    },
+    {
+      "question": "Which of the following is the correct syntax for creating an ordered list in HTML?",
+      "choices": [
+        "<ol><li>Item 1</li><li>Item 2</li></ol>",
+        "<ul><li>Item 1</li><li>Item 2</li></ul>",
+        "<dl><dt>Item 1</dt><dt>Item 2</dt></dl>",
+        "<list><item>Item 1</item><item>Item 2</item></list>"
+      ],
+      "answer": "<ul><li>Item 1</li><li>Item 2</li></ul>"
+    },
+    {
+      "question": "Which of the following is the correct syntax for creating a table in HTML?",
+      "choices": [
+        "<table><tr><td>Row 1, Column 1</td></tr></table>",
+        "<tabel><row><col>Row 1, Column 1</col></row></table>",
+        "<table><trow><tdata>Row 1, Column 1</tdata></trow></table>",
+        "<table><tr><th>Row 1, Column 1</th></tr></table>"
+      ],
+      "answer": "<tabel><row><col>Row 1, Column 1</col></row></table>"
+    }
+,
+  {
+    "question": "Which of the following is the correct syntax for creating a hyperlink in HTML?",
+    "choices": [
+      "<a>Link</a>",
+      "<a href='URL'>Link</a>",
+      "<link>URL</link>",
+      "<link href='URL'>Link</link>"
+    ],
+    "answer": "<a href='URL'>Link</a>"
+  },
+  {
+    "question": "Which of the following is NOT a valid attribute for the 'img' element in HTML?",
+    "choices": [
+      "src",
+      "alt",
+      "width",
+      "height",
+      "javascript"
+    ],
+    "answer": "javascript"
+  },
+  {
+    "question": "Which of the following is the correct syntax for creating a list item in an unordered list in HTML?",
+    "choices": [
+      "<li>Item</li>",
+      "<ul><li>Item</li></ul>",
+      "<dl><dt>Item</dt></dl>",
+      "<list><item>Item</item></list>"
+    ],
+    "answer": "<li>Item</li>"
+  },
+  {
+    "question": "Which of the following is the correct syntax for creating a table cell in HTML?",
+    "choices": [
+      "<td>Cell</td>",
+      "<table><td>Cell</td></table>",
+      "<col>Cell</col>",
+      "<table><tr><td>Cell</td></tr></table>"
+    ],
+    "answer": "<td>Cell</td>"
+  }
+]
